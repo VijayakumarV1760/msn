@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./aseets/image/background-img.img");
+    object-fit: cover;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 20vh;
+    background-color: aqua;
+}
+.header-1{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 30, 255);
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.header-logo{
+    width: 10%;
+    display: flex;
+    gap: 12px;
+    position: relative;
+    left: 8px;
+    justify-content: center;
+}
+.header-logo-img{
+    height: 20px;
+    width: 20px;
+}
+.header-logo-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-search{
+    width: 80%;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    left: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.header-location{
+    width: 20%;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    right: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.header-location-name p{
+    display: flex;
+    gap: 12px;
+    position: relative;
+    right: 8px;
+    justify-content: center;
+    align-items: center;        
+}
+.whether-logo{
+    height: 20px;
+    width: 20px;    
+}
+.whether-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-settings{
+    position: relative;    
+}
+.header-2{
+    width: 100%;
+    height: 10vh;
+}
+
